@@ -1,0 +1,13 @@
+.container {
+    padding: 15px 10px;
+    background-color: var(--app-backgound-grey);
+}
+
+.title {
+    font-weight: bold;
+}
+
+.highlight {
+    margin: 10px, 0;
+    height: 20px;
+}
