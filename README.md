@@ -15,7 +15,12 @@
 ## Install
 
 ```sh
+cd emergency-booking-service
 npm install
+cd client
+npm install
+cd ../
+npm run dev
 ```
 
 ## Usage
