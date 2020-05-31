@@ -1,17 +1,23 @@
 const mongoose = require('mongoose');
 
 const patientSchema = mongoose.Schema({
-    illness: {
+    illnessName: {
         type: String
     },
-    levelOfPain: {
-        type: Number
-    },
     hospitalName: {
-        type: String,
-    },    
-    waitingTime: {
+        type: String
+    },
+    hospitalAvgProcessTime: {
         type: Number,
+    },    
+    hospitalWaitingList: {
+        type: Number,
+    },
+    hospitalWaitingTime: {
+        type: Number,
+    },
+    levelOfPain: {
+        type: String,
     }
 });
 

@@ -1,0 +1,41 @@
+.container {
+  height: 80%;
+  padding: 20px;
+  overflow-x: auto;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th {
+  padding: 0 10px;
+  font-weight: bold;
+  font-size: var(--large);
+  border: 1px solid black;
+  border-collapse: collapse;
+  white-space: nowrap;
+}
+
+td {
+  padding: 0 5px;
+  font-size: var(--medium);
+  border: 1px solid black;
+  border-collapse: collapse;
+  white-space: nowrap;
+}
+
+@media only screen and (max-width: 550px) {
+  .container {
+    padding: none;
+  }
+
+  th {
+    font-size: var(--small);
+  }
+
+  td {
+    font-size: var(--Xsmall);
+  }
+}

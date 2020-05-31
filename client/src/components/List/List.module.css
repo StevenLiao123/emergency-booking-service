@@ -1,0 +1,28 @@
+.container {
+  height: 80%;
+  padding: 20px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: var(--large);
+}
+
+.value {
+  padding-left: 20px;
+  font-size: var(--medium);
+}
+
+@media only screen and (max-width: 550px) {
+  .container {
+    padding: none;
+  }
+
+  .title {
+    font-size: var(--small);
+  }
+
+  .value {
+    font-size: var(--Xsmall);
+  }
+}
