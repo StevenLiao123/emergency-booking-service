@@ -1,8 +1,8 @@
-import { Home } from './Home/Home';
-import { Details } from './Details/Details';
-import { HospitalList } from './HospitalList/HospitalList';
-import { PainLevel } from './PainLevel/PainLevel';
-import { Record } from './Record/Record';
+import Home from './Home/HomeContainer';
+import Details from './Details/DetailsContainer';
+import HospitalList from './HospitalList/HospitalListContainer';
+import PainLevel from './PainLevel/PainLevelContainer';
+import Record from './Record/RecordContainer';
 
 export {
     Home,

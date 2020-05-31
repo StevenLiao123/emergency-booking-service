@@ -28,7 +28,7 @@ mongoose.connect(config.mongoose.uri,
     }
 );
 
-// 
+// set static files in production
 if(process.env.NODE_ENV === 'production') {
     app.use(express.static( 'client/build' ));
 
