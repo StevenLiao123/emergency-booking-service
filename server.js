@@ -15,6 +15,8 @@ const PORT = process.env.PORT || 8080;
 app.use(cors());
 app.use(bodyParser.json());
 
+app.use(express.static(path.join(__dirname, "client/build")));
+
 // get the route of patient
 const patientRoute = require('./server/routes/patient');
 app.use('/api/patient', patientRoute);
