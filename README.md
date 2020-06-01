@@ -8,9 +8,9 @@
 
 > A health emergency service for provding booking platform to patient
 
-### 🏠 [Homepage](https://shrouded-tor-98527.herokuapp.com/)
+### 🏠 [Homepage](http://ec2-13-210-217-247.ap-southeast-2.compute.amazonaws.com)
 
-### ✨ [Demo](https://shrouded-tor-98527.herokuapp.com/)
+### ✨ [Demo](http://ec2-13-210-217-247.ap-southeast-2.compute.amazonaws.com)
 
 ## Install
 
